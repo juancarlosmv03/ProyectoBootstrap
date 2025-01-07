@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Astro Bot se lleva el GOTY 2024 en The Game Awards. Descubre por qué este juego revolucionó la industria.">
     <title>Astro Bot: GOTY 2024</title>
+    <link rel="shortcut icon" href="/img/almohadilla-de-juego.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-black min-vh-100 text-white">
     <!-- Encabezado -->
-    <header class=" text-white  text-center " style="background-image: url('/img/gradient_1000_800.png');">
+    <header   class="text-white" style="background-image: url('/img/gradient_1000_800.png');">
         <nav class="navbar navbar-dark bg-dark sticky-top" style="top: 0;">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <button class="bg-dark border-0 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -30,8 +31,12 @@
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item d-flex">
+                            <img src="/img/Avatar.jpg" class="rounded-pill me-2" style="width: 50px;" alt="">
+                            <a class="nav-link" href="/html/perfil.html">Mi Perfil</a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/html/comunidad.html">Comunidad</a>
@@ -39,8 +44,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/html/ayuda-contaco.html">Ayuda</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link" href="/html/logout.html">Cerrar Sesión</a>
+                            <a class="nav-link" href="/index.html">Cerrar Sesión</a>
                         </li>
                         
                 </ul>
@@ -49,8 +55,8 @@
             </div>
             </div>
         </nav>
-        <div class="container py-5 ">
-            <h1>Astro Bot: El GOTY 2024 que Sorprendió al Mundo</h1>
+        <div class="container py-5 text-center" >
+            <h1 >Astro Bot: El GOTY 2024 que Sorprendió al Mundo</h1>
             <p class="lead">Un homenaje a la excelencia en los videojuegos</p>
         </div>
     </header>
@@ -58,14 +64,14 @@
     <!-- Contenido principal -->
     <main class="container my-5">
         <!-- Introducción -->
-        <section>
+        <section  data-aos="fade-up">
             <h2 class="text-white">Introducción</h2>
             <p class="text-white">El 12 de diciembre de 2024, durante la ceremonia de los The Game Awards, <strong>Astro Bot</strong> fue coronado como el Juego del Año (GOTY). Este título de plataformas exclusivo para PlayStation 5 ha marcado un antes y un después en la industria.</p>
             <img src="/img/AstroBot 2.07d231ef.jpg" alt="Astro Bot GOTY 2024" class="img-fluid rounded shadow w-100">
         </section>
 
         <!-- Sección 2: ¿Qué hace especial a Astro Bot? -->
-        <section class="my-5">
+        <section class="my-5"  data-aos="fade-up">
             <h2 class="text-white">¿Qué hace especial a Astro Bot?</h2>
             <p>Desarrollado por <strong>Team Asobi</strong>, Astro Bot combina mecánicas innovadoras, un diseño de niveles exquisito y un gran homenaje al legado de PlayStation. Su jugabilidad ha sido comparada con <em>Super Mario Odyssey</em>, ganándose el apodo de "el Mario Bros de PlayStation".</p>
             <blockquote class="blockquote text-center">
@@ -75,16 +81,16 @@
         </section>
 
         <!-- Video destacado -->
-        <section class="my-5">
+        <section class="my-5"  data-aos="fade-up">
             <h2 class="text-white">Análisis 3D Juegos</h2>
             <div class="ratio ratio-16x9">
                 <iframe width="914" height="514" src="https://www.youtube.com/embed/39X7GCIqlxw" title="SE VEÍA VENIR - ANÁLISIS de ASTRO BOT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <p class="text-muted text-center mt-2">Disfruta del gameplay oficial de Astro Bot.</p>
+            <p class="text-center mt-2">Disfruta del gameplay oficial de Astro Bot.</p>
         </section>
 
         <!-- Competencia reñida -->
-        <section class="my-5">
+        <section class="my-5"  data-aos="fade-up">
             <h2 class="text-white">Competencia Reñida</h2>
             <p>En 2024, la categoría de GOTY incluyó nominados como <em>Black Myth: Wukong</em>, <em>Final Fantasy VII Rebirth</em>, y <em>Elden Ring: Shadow of the Erdtree</em>. Sin embargo, Astro Bot logró destacar gracias a su frescura e innovación.</p>
             <div class="row">
@@ -104,7 +110,7 @@
         </section>
 
         <!-- Premios adicionales -->
-        <section class="my-5">
+        <section class="my-5"  data-aos="fade-up">
             <h2 class="text-white">Premios Adicionales</h2>
             <p>Además del GOTY, Astro Bot también ganó los premios a Mejor Dirección, Mejor Juego Familiar y Mejor Diseño de Niveles. Esto reafirma el talento de Team Asobi como uno de los estudios más destacados de la actualidad.</p>
         </section>
